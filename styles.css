@@ -1,0 +1,28 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: attr(data-color);
+    color: white;
+    font-size: 2em;
+}
+
+.container {
+    width: 60%;
+    margin: 4em auto;
+    max-width: 1000px;
+}
+
+
+canvas {
+    cursor: crosshair;
+    border: 2px solid white;
+}
